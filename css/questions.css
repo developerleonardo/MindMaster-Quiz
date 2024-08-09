@@ -4,12 +4,12 @@
     font-weight: 700;
     display: inline-block;
     margin-left: 56px;
+    margin-top: 20px;
 }
 .counter {
     text-align: center;
     color: var(--white);
     font-size: var(--lg);
-    margin-top: -40px;
 }
 .quiz_container {
     width: 100%;
@@ -29,6 +29,7 @@
 }
 .question_container p {
     color: #ffffff;
+    font-size: var(--lg);
 }
 .options_container {
     display: flex;
@@ -44,14 +45,16 @@
     align-items: center;
     gap: 16px;
     width: 400px;
-    padding-left: 8px;
+    padding: 4px 8px 4px 8px;
     background-color: var(--white);
     border-radius: 20px;
     box-sizing: border-box;
 }
 .option:hover {
-    background-color: var(--tertiary);
     cursor: pointer;
+}
+.option-active {
+    background-color: var(--tertiary);
     color: var(--white);
 }
 .vowel_option {

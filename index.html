@@ -19,12 +19,13 @@
             Answer at least 8 out of 10 questions and prove you are an expert Front End developer in Javascript.<br>
             Are you ready?</p>
         <img src="./img/quiz-time.png" alt="MindMaster logo">
-        <form id="form">
+        <form id="form" autocomplete="off">
             <label for="name">Enter your name</label>
-            <input type="text" name="name" required>
-            <button class="button"> <a href="./pages/questions.html">PLAY QUIZ</a></button>
+            <input type="text" name="name" data-name required>
+            <button class="button">PLAY QUIZ</button>
         </form>
     </div>
+    <script src="./js/index.js"></script>
 </body>
 
 </html>
