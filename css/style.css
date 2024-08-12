@@ -56,7 +56,6 @@ body {
     border: 2px solid var(--white);
 }
 .button {
-    margin-top: 80px;
     width: 190px;
     align-self: center;
     background-color: var(--tertiary);
@@ -68,4 +67,7 @@ body {
 }
 .button:hover {
     cursor: pointer;
+}
+.button_main {
+    margin-top: 80px;
 }
