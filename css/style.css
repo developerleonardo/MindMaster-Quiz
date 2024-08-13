@@ -39,8 +39,10 @@ body {
 .home_container p {
     text-align: center;
 }
-.home_container img {
+.main_image {
     width: 500px;
+    box-sizing: border-box;
+    object-fit: cover;
 }
 #form {
     display: flex;
@@ -70,4 +72,16 @@ body {
 }
 .button_main {
     margin-top: 80px;
+}
+@media (width < 800px) {
+    .home_container {
+        padding: 0 16px 0 16px;
+    }
+    #form {
+        width: 100%;
+    }
+    .main_image {
+        width: 100%;
+        max-width: 500px;
+    }
 }
