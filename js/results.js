@@ -16,14 +16,14 @@ export const showScore = (score, listOfQuestions) => {
     });
     const scoreInPercentage = score * 100 / listOfQuestions.length;
     if (score >=  listOfQuestions.length * 80 / 100) {
-        imageResult.src = "../img/Winner.png";
+        imageResult.src = "../img/Winner.AVIF";
         titleMessage.textContent = "CONGRATS!";
         finalScore.textContent = `${scoreInPercentage}%`;
         infoMessage.textContent = "Quiz completed successfully!";
         numberOfCorrectAnswers.textContent = `You got ${score} out of ${listOfQuestions.length} answers correct`;score / listOfQuestions.length;
         resultButton.textContent = "GO HOME";
     } else {
-        imageResult.src = "../img/loser.png";
+        imageResult.src = "../img/loser.AVIF";
         titleMessage.textContent = "OH NO!";
         finalScore.textContent = `${scoreInPercentage}%`;
         finalScore.style.color = "var(--red)";
